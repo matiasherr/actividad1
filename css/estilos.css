@@ -1,6 +1,42 @@
 body{
   background-color: #FBFAA4;
+  font-family: sans-serif;
 }
 h1{
   text-align: center;
+}
+footer{
+  border-top-style: solid;
+  font-size: 8pt;
+  padding-top: 10pt;
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder;
+}
+header > p{
+  text-align: center;
+  font-weight: bolder;
+}
+nav {
+  background-color:#3c5ba6 ;
+  font-size:15pt;
+}
+ul.nav{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a:link, a:visited, a:active{
+  text-decoration: none;
+  color: #ffcb05;
+}
+a:hover {
+
+  color:#100;
+
+}
+
+li{
+  margin: 10pt;
 }
