@@ -1,4 +1,4 @@
-body{
+html, body{
   background-color: #FBFAA4;
   font-family: sans-serif;
 }
@@ -13,7 +13,7 @@ footer{
   font-style: oblique;
   font-weight: bolder;
 }
-header > p{
+header p{
   text-align: center;
   font-weight: bolder;
 }
@@ -25,18 +25,32 @@ ul.nav{
   list-style: none;
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
 }
-a:link, a:visited, a:active{
+nav a:link,nav a:visited,nav a:active{
   text-decoration: none;
   color: #ffcb05;
 }
-a:hover {
-
-  color:#100;
-
+footer a:link,footer a:visited,footer a:active{
+  text-decoration: none;
+  color: #100;
 }
-
+footer a:hover{
+  color: #3c5ba6;
+}
+a.act:link, a.act:visited, a.act:active{
+  color: white;
+  opacity: 0.5;
+  font-style:italic;
+}
+nav a:hover {
+  color:#100;
+}
 li{
   margin: 10pt;
+}
+#principal{
+  margin-right: 20px;
+  margin-left: 20px;
 }
