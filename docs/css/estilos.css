@@ -67,3 +67,15 @@ th{
 .center{
   text-align: center;
 }
+.imleft{
+  float: left;
+}
+.imright{
+  float: right;
+  margin: 15px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
