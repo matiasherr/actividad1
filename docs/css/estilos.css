@@ -55,14 +55,22 @@ li{
   margin-right: 20px;
   margin-left: 20px;
 }
-table{
+table, td, th{
   border: 1px solid black;
   align: center;
   text-align: left;
   margin-bottom: 15px;
+  border-collapse:collapse;
 }
 th{
   text-align: center;
+  background-color: #ffcb05;
+  color: #3c5ba6;
+}
+td {
+  padding-left: 10px;
+  padding-right: 5px;
+  vertical-align:text-top;
 }
 .center{
   text-align: center;
@@ -78,4 +86,8 @@ th{
   content: "";
   clear: both;
   display: table;
+}
+h3, h4, h5, h6{
+  color: #3c5ba6;
+  font-style:italic;
 }
