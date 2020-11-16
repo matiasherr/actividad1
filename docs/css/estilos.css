@@ -48,6 +48,16 @@ a.act:link, a.act:visited, a.act:active{
 nav a:hover {
   color:#100;
 }
+#principal a:link, #principal a:visited, #principal a:active{
+  color: #3c5ba6;
+  font-weight: bold;
+  text-decoration: none;
+}
+#principal a:hover{
+  color: #100;
+  border: 1px dotted black;
+  background-color: #ffcb05;
+}
 li{
   margin: 10pt;
 }
