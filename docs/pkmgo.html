@@ -1,53 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="css/estilos.css"/>
-    <title>Pokemon Go</title>
-  </head>
-  <body>
-    <header>
-      <h1>
-      <img src="img/Pkmon_GO_logo.png" width="20%"alt="Pok&eacute;mon Go"/>
-      </h1>
-      <h2>
-      </h2>
-      <p>
-        Pokémon GO es un videojuego de realidad aumentada basado en la localización desarrollado por Niantic para dispositivos iOS y Android.
-      </p>
-    </header>
-    <nav>
-      <ul class="nav">
-        <li>
-          <a href="index.html">Saga Pokémon</a>
-        </li>
-        <li>
-          <a href="pkserie.html">Pokémon Serie Animada</a>
-          </li>
-        <li>
-          <a href="pkmgo.html" class="act">Pokémon Go</a>
-          </li>
-      </ul>
-    </nav>
-    <section id="principal">
-    <article class="clearfix">
-      <p>Se trata de una adaptación del espíritu de los videojuegos RPG que hemos conocido en las consolas de Nintendo, es una experiencia similar pero trasladada a dispositivos móviles.</p>
-      <p>El juego consiste en buscar y capturar personajes de la saga Pokémon escondidos en ubicaciones del mundo real y luchar con ellos, lo que implica desplazarse físicamente por las calles de la ciudad para progresar. La aplicación comporta un elemento de interacción social, ya que promueve reuniones físicas de los usuarios en distintas ubicaciones de sus poblaciones y bosques entre otros.</p>
-      <p>El juego se lanzó en Argentina el 3 de agosto de 2016</p><img src="img/pokemon-go-smartphone.png" width="200" alt="Smartphone corriendo Pokémon Go" class="imleft"/>
-      <p>El juego usa nuestra localización en tiempo real por medio de la red GPS para posicionarnos en nuestro entorno físico. Por lo tanto, como requisito para jugar a Pokémon Go hace falta estar conectado a Internet, ya sea mediante una red Wi-Fi o usando nuestra conexión de datos.</p>
-      <p>Siguiendo con la idea de realidad aumentada que implementa este juego, al encender la cámara del celular se podrá visualizar la imagen virtual de un pokémon sobrepuesta en la escena real. Estas características del vídeojuego lo clasifican como realidad aumentada, ya que mezcla elementos reales con ficticios con la intermediación del teléfono celular.</p>
-      <p>Este juego cuenta con otros elementos y objetos que sirven para el entrenamiento de los pokémon. Para hacer evolucionar a los pokémon se necesitan caramelos. Estos caramelos se consiguen atrapando pokémons, gracias a huevos de pokémon o por transferencia. Además de los caramelos, el polvo estelar también sirve para hacer evolucionar a los pokémon.</p>
-      <img src="img/pokemonhome.png" width="350" alt="relacion de juegos con Pokémon Home" class="imright"/>
-      <p>El servicio Pokemon HOME fue anunciado el año pasado, antes de su lanzamiento en febrero de 2020. Permite a los jugadores transferir su Pokemon a través de diferentes títulos mediante el uso de una práctica aplicación. Se diseñó teniendo en cuenta el Nintendo Switch y salió a la venta unos meses después de Pokemon Sword and Shield.</p>
-      <p>En un principio, los jugadores que tuvieran Pokemon Sword y/o Shield y Pokemon Let’s Go Pikachu y/o Eevee, podrían transferir libremente su Pokemon entre los dos juegos, lo que les ayudaría a completar su ‘Dex’ y a mover su Pokemon de competición entre los juegos. Sin embargo, eso dejaba a los jugadores de Pokemon GO sin acceso. Eso era hasta ahora.</p>
-      <p>A partir del 11 de noviembre de 2020, los jugadores de Pokemon GO que estén en el nivel máximo, 40, podrán transferir el Pokemon que hayan capturado a Pokemon HOME y luego a Sword o Shield desde allí. Hay algunas advertencias con eso, sin embargo, algunas que incluyen cargos extras.</p>
-      <p>Los jugadores tendrán que usar el “Transportador de Pokemon” en Pokemon GO para mover su Pokemon a HOME. Este ítem solo tiene una cierta cantidad de “energía”, sin embargo, que se agota con cada Pokemon transferido. La cantidad de energía que se utiliza depende del tipo de Pokemon y de si es brillante, legendario, mítico o no.</p>
-    </article>
-    </section>
-    <footer>
-      Pokémon y todos los personajes son una marca registrada por <a href="https://www.pokemon.com/">The Pokémon Company</a> - integrada por <a href="https://www.nintendo.com/">© Nintendo</a>, <a href="https://www.gamefreak.co.jp/">© Game Freak</a>, y <a href="https://www.creatures.co.jp/en/">© Creatures, Inc.</a>
-    </footer>
 
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/estilos.css" />
+  <title>Pokemon Go</title>
+  <style>
+    h2{
+      visibility: hidden;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>
+      <img src="img/Pkmon_GO_logo.png" width="200" alt="Pok&eacute;mon Go" />
+    </h1>
+    <p>
+      Pokémon GO es un videojuego de realidad aumentada basado en la localización desarrollado por Niantic para
+      dispositivos iOS y Android.
+    </p>
+  </header>
+  <nav>
+    <ul class="nav">
+      <li>
+        <a href="index.html">Saga Pokémon</a>
+      </li>
+      <li>
+        <a href="pkserie.html">Pokémon Serie Animada</a>
+      </li>
+      <li>
+        <a href="pkmgo.html" class="act">Pokémon Go</a>
+      </li>
+    </ul>
+  </nav>
+  <div id="principal">
+    <article class="clearfix">
+      <h2>El Juego</h2>
+      <p>Se trata de una adaptación del espíritu de los videojuegos RPG que hemos conocido en las consolas de Nintendo,
+        es una experiencia similar pero trasladada a dispositivos móviles.</p>
+      <p>El juego consiste en buscar y capturar personajes de la saga Pokémon escondidos en ubicaciones del mundo real y
+        luchar con ellos, lo que implica desplazarse físicamente por las calles de la ciudad para progresar. La
+        aplicación comporta un elemento de interacción social, ya que promueve reuniones físicas de los usuarios en
+        distintas ubicaciones de sus poblaciones y bosques entre otros.</p>
+      <p>El juego se lanzó en Argentina el 3 de agosto de 2016</p><img src="img/pokemon-go-smartphone.png" width="200"
+        alt="Smartphone corriendo Pokémon Go" class="imleft" />
+      <p>El juego usa nuestra localización en tiempo real por medio de la red GPS para posicionarnos en nuestro entorno
+        físico. Por lo tanto, como requisito para jugar a Pokémon Go hace falta estar conectado a Internet, ya sea
+        mediante una red Wi-Fi o usando nuestra conexión de datos.</p>
+      <p>Siguiendo con la idea de realidad aumentada que implementa este juego, al encender la cámara del celular se
+        podrá visualizar la imagen virtual de un pokémon sobrepuesta en la escena real. Estas características del
+        vídeojuego lo clasifican como realidad aumentada, ya que mezcla elementos reales con ficticios con la
+        intermediación del teléfono celular.</p>
+      <p>Este juego cuenta con otros elementos y objetos que sirven para el entrenamiento de los pokémon. Para hacer
+        evolucionar a los pokémon se necesitan caramelos. Estos caramelos se consiguen atrapando pokémons, gracias a
+        huevos de pokémon o por transferencia. Además de los caramelos, el polvo estelar también sirve para hacer
+        evolucionar a los pokémon.</p>
+      <img src="img/pokemonhome.png" width="350" alt="relacion de juegos con Pokémon Home" class="imright" />
+      <p>El servicio Pokemon HOME fue anunciado el año pasado, antes de su lanzamiento en febrero de 2020. Permite a los
+        jugadores transferir su Pokemon a través de diferentes títulos mediante el uso de una práctica aplicación. Se
+        diseñó teniendo en cuenta el Nintendo Switch y salió a la venta unos meses después de Pokemon Sword and Shield.
+      </p>
+      <p>En un principio, los jugadores que tuvieran Pokemon Sword y/o Shield y Pokemon Let’s Go Pikachu y/o Eevee,
+        podrían transferir libremente su Pokemon entre los dos juegos, lo que les ayudaría a completar su ‘Dex’ y a
+        mover su Pokemon de competición entre los juegos. Sin embargo, eso dejaba a los jugadores de Pokemon GO sin
+        acceso. Eso era hasta ahora.</p>
+      <p>A partir del 11 de noviembre de 2020, los jugadores de Pokemon GO que estén en el nivel máximo, 40, podrán
+        transferir el Pokemon que hayan capturado a Pokemon HOME y luego a Sword o Shield desde allí. Hay algunas
+        advertencias con eso, sin embargo, algunas que incluyen cargos extras.</p>
+      <p>Los jugadores tendrán que usar el “Transportador de Pokemon” en Pokemon GO para mover su Pokemon a HOME. Este
+        ítem solo tiene una cierta cantidad de “energía”, sin embargo, que se agota con cada Pokemon transferido. La
+        cantidad de energía que se utiliza depende del tipo de Pokemon y de si es brillante, legendario, mítico o no.
+      </p>
+    </article>
+  </div>
+  <footer>
+    Pokémon y todos los personajes son una marca registrada por <a href="https://www.pokemon.com/">The Pokémon
+      Company</a> - integrada por <a href="https://www.nintendo.com/">© Nintendo</a>, <a
+      href="https://www.gamefreak.co.jp/">© Game Freak</a>, y <a href="https://www.creatures.co.jp/en/">© Creatures,
+      Inc.</a>
+  </footer>
+
+</body>
+
 </html>
